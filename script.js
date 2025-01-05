@@ -168,7 +168,7 @@ checkoutBtn.addEventListener("click", function(){
     }).join("")
     
     const message = encodeURIComponent(cartItems)
-    const phone = "066996070709"
+    const phone = "5566996070709"
 
 
     window.open(`https://wa.me/${phone}?text=${message} endereço: ${addressInput.value}`, "_blank")
