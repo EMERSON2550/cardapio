@@ -162,7 +162,7 @@ checkoutBtn.addEventListener("click", function(){
     //Enviar o pedido para api wahts
     const cartItems = cart.map((item) => {
         return(
-            `${item.name} Quantidade:(${item.quantity}) preço: R$${item.price}}`
+            `${item.name} Quantidade:(${item.quantity}) preço: R$${item.price}`
         )
     }).join("")
     
