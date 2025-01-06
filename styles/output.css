@@ -1960,7 +1960,7 @@ video {
 }
 
 .bg-home {
-  background-image: url('./assets/bg.png');
+  background-image: url('/assets/bg.png');
 }
 
 .decoration-slice {
@@ -1981,10 +1981,6 @@ video {
 .box-decoration-clone {
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
-}
-
-.bg-cover {
-  background-size: cover;
 }
 
 .bg-fixed {
@@ -2014,10 +2010,6 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.bg-center {
-  background-position: center;
 }
 
 .bg-repeat {

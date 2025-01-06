@@ -68,11 +68,10 @@ function updateCartModal(){
 
     cart.forEach(item =>{
         const cartItemElement = document.createElement("div")
-        
         cartItemElement.classList.add("flex", "justify-between", "mb-4", "flex-col")
 
         cartItemElement.innerHTML = `
-            <div calss="flex items-center justify-between">
+            <div calss="flex items-center, justify-between">
                 <div>
                     <p class="font-bold">${item.name}</p>
                     <p>Qtd: ${item.quantity}</p>
@@ -163,7 +162,7 @@ checkoutBtn.addEventListener("click", function(){
     //Enviar o pedido para api wahts
     const cartItems = cart.map((item) => {
         return(
-            `${item.name} Quantidade:(${item.quantity}) preço: R$ ${item.price}`
+            `${item.name} Quantidade:(${item.quantity}) preço: R$${item.price} total: R$${item.total}`
         )
     }).join("")
     
